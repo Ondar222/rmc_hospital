@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      charset="UTF-8"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Интерактиная карта угольных складов</title>
+  </head>
+  <body>
+    <div class="container mx-auto flex flex-row items-center justify-between">
+      <div>
+        <div>Правовая информация</div>
+        <div>Руководство пользователя</div>
+      </div>
+
+      <div
+        id="specialButton"
+        class="flex flex-row items-center justify-end gap-3 cursor-pointer py-3"
+      >
+        <strong class="">Версия сайта для слабовидящих</strong>
+        <img
+          src="https://lidrekon.ru/images/special.png"
+          alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ"
+          title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ"
+        />
+      </div>
+    </div>
+
+    <div id="root"></div>
+    <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+    <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
+  </body>
+</html>
